@@ -1,9 +1,14 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bebas+Neue&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 /* Resetting */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     position: relative;
+    font-style: normal;
 }
 /* variables */
 :root{
@@ -77,9 +82,10 @@ header{
 .logo-name{
     display: flex;
     align-items: flex-start;
+    font-family: "Bebas Neue", sans-serif;
 }
 .logo-name h1{
-    font-size: 2rem;
+    font-size: 2.5rem;
     margin-bottom: 5px;
 }
 nav ul{
@@ -155,7 +161,9 @@ a.active::after{
 }
 .hero-intro{
     color: var(--white);
+    font-family:"Raleway", sans-serif;
     font-size: 4rem;
+    font-weight: 400;
     text-align: center;
 }
 .hero-footer{
