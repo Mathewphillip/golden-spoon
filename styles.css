@@ -10,6 +10,16 @@
     position: relative;
     font-style: normal;
 }
+/* forced fonts */
+@font-face {
+    font-family: "Bebas Neue";
+    src: url("fonts/Bebas_Neue/BebasNeue-Regular.ttf"); 
+}
+@font-face {
+    font-family: "Raleway";
+    src: url("fonts/Raleway/Raleway-VariableFont_wght.ttf");
+}
+
 /* variables */
 :root{
     --deep-maroon: #800000;
