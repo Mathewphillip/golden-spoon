@@ -1,0 +1,89 @@
+
+Golden Spoon Restaurant Website Content
+=======================================
+
+Restaurant Name: Golden Spoon
+Tagline: "Where every meal feels like home."
+Theme Colors: Deep Maroon (#800000), Gold (#FFD700), White.
+
+------------------------------------------------------------
+1. HOME PAGE (index.html)
+------------------------------------------------------------
+Header:
+- Golden Spoon (Logo/Name)
+- Navigation: Home | Menu | About Us | Contact
+
+Hero Section:
+- Big Welcome Text: "Welcome to Golden Spoon"
+- Subtext: "Where every meal feels like home."
+- Button: "View Our Menu"
+
+------------------------------------------------------------
+2. MENU PAGE (menu.html)
+------------------------------------------------------------
+Header:
+- Golden Spoon (Logo/Name)
+- Navigation: Home | Menu | About Us | Contact
+
+Menu Sections:
+- Starters:
+  * Crispy Spring Rolls - Golden fried rolls served with sweet chili sauce. ($5)
+  * Garlic Bread - Freshly baked bread with garlic butter. ($4)
+  * Tomato Soup - Creamy tomato soup with basil. ($6)
+
+- Main Dishes:
+  * Grilled Chicken - Served with mashed potatoes and steamed vegetables. ($12)
+  * Beef Steak - Tender beef steak with pepper sauce. ($15)
+  * Vegetable Pasta - Pasta with mixed vegetables in a creamy sauce. ($10)
+
+- Desserts:
+  * Chocolate Lava Cake - Warm cake with molten chocolate center. ($7)
+  * Fruit Salad - Seasonal fresh fruits. ($5)
+  * Vanilla Ice Cream - Two scoops of classic vanilla. ($4)
+
+- Drinks:
+  * Fresh Juice - Orange, mango, or pineapple. ($3)
+  * Coffee - Hot brewed coffee. ($2)
+  * Mineral Water. ($1)
+
+------------------------------------------------------------
+3. ABOUT US PAGE (about.html)
+------------------------------------------------------------
+Header:
+- Golden Spoon (Logo/Name)
+- Navigation: Home | Menu | About Us | Contact
+
+Content:
+- Title: "About Golden Spoon"
+- Text: "Golden Spoon is a family-style restaurant that combines the warmth of home-cooked meals with a touch of elegance. Since our opening in 2015, we have served thousands of happy customers, offering both local and international cuisine."
+- Section: "Our Mission"
+  * "To create memorable dining experiences where every customer feels at home."
+- Section: "Our Team"
+  * "Our dedicated chefs and staff work together to deliver delicious meals and excellent service every day."
+
+------------------------------------------------------------
+4. CONTACT PAGE (contact.html)
+------------------------------------------------------------
+Header:
+- Golden Spoon (Logo/Name)
+- Navigation: Home | Menu | About Us | Contact
+
+Content:
+- Title: "Contact Us"
+- Address: "Golden Spoon, 123 Main Street, Kampala, Uganda"
+- Phone: "+256 700 123 456"
+- Email: "info@goldenspoon.com"
+- Contact Form Fields:
+  * Name
+  * Email
+  * Message
+  * Button: "Send Message"
+- Social Media:
+  * Facebook: facebook.com/goldenspoon
+  * Instagram: instagram.com/goldenspoon
+
+Footer:
+- Text: "© 2025 Golden Spoon. All rights reserved."
+
+------------------------------------------------------------
+End of Website Content

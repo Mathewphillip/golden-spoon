@@ -1,0 +1,183 @@
+/* Resetting */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    position: relative;
+}
+/* variables */
+:root{
+    --deep-maroon: #800000;
+    --gold: #FFD700;
+    --white: #FFFFFF;
+    --black: #000000;
+
+    /* head gradient */
+    --home-gradient:linear-gradient( var(--deep-maroon),var(--deep-maroon), var(--black));
+}
+a{
+text-decoration: none;
+color: inherit;
+}
+img{
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--white);
+    color: var(--black);
+    line-height: 1.6;
+    overflow-x: hidden;
+}
+section{
+    position: relative;
+}
+/* header section */
+header{
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    backdrop-filter: blur(2px);
+    align-items: center;
+    color: var(--white);
+    height: 80px;
+    padding-inline: 2rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.head-span{
+    color: var(--gold);
+}
+.header-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.logo-wrapper{
+    display: flex;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 70px;
+    height: 50px;
+    margin-right: 10px;
+}
+.logo h1{
+    font-size: 1.5rem;
+}
+.logo-name{
+    display: flex;
+    align-items: flex-start;
+}
+.logo-name h1{
+    font-size: 2rem;
+    margin-bottom: 5px;
+}
+nav ul{
+    user-select: none;
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+}
+nav ul li{
+    margin-right: 30px;
+    transition: all .5s ease;
+}
+nav ul li:hover{
+    transform: scale(1.1);
+}
+nav ul li a{
+    color: var(--white);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: .875rem;
+    transition:all 0.3s ease;
+}
+nav ul li a:hover{
+    color: var(--gold);
+    transform: scale(1.1);
+}
+a.active{
+    color: var(--gold);
+}
+a.active::after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 3px;
+    background-color: var(--gold);
+    margin-top: 3px;
+    border-radius: 2px;
+}
+.header-btn{
+    background-color: var(--gold);
+    color: var(--black);
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: 550;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+    border: none;
+}
+.header-btn:hover{
+    background-color: var(--deep-maroon);
+    color: var(--white);
+}
+/* home section */
+.home{
+    position: relative;
+    height: fit-content;
+    background-color: var(--black);
+    background-image: url("images/stirfry.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.home section{
+    position: relative;
+    max-height: 100vh;
+}
+.hero-wrapper{
+    height: 80vh;
+    display: flex;
+    place-content: center;
+    align-items: center;
+    position: relative;
+}
+.hero-intro{
+    color: var(--white);
+    font-size: 4rem;
+    text-align: center;
+}
+.hero-footer{
+    background-color: var(--white);
+    height:20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+.hero-footer ul{
+    width: 90%;
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+}
+.hero-footer ul li{
+    /* font-size: 1.5rem; */
+    transition: all .5s ease;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+.hero-footer ul li:hover{
+    transform: scale(.9);
+    color: var(--deep-maroon);
+}
