@@ -202,3 +202,43 @@ a.active::after{
     transform: scale(.9);
     color: var(--deep-maroon);
 }
+/* best settings */
+.best-wrapper{
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    position: relative;
+    gap: 2rem;
+}
+
+.best-intro{
+    color: var(--white);
+    font-family:"Raleway", sans-serif;
+    font-size: 4rem;
+    font-weight: 400;
+    text-align: center;
+}
+.best-footer{
+    background-color: var(--white);
+    height:20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+.best-footer ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+}
+.best-footer ul li{
+    font-family: 'Nato-sans';
+    font-size: 2rem;
+    transition: all .5s ease;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+.best-footer ul li:hover{
+    transform: scale(.9);
+    color: var(--deep-maroon);
+}
